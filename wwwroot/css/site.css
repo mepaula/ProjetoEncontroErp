@@ -1,0 +1,61 @@
+html {
+    font-size: 14px;
+    background-color: LightCyan;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: LightCyan;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: LightCyan;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: LightCyan;
+}
+
+.form {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    color: #333333;
+    width: 50%;
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 14px;
+    align-items: center;
+    font-family: "Roboto", Arial;
+    font-weight: 400;
+    line-height: 1.1876em;
+    border-radius: 4px;
+    letter-spacing: 0.51px;
+    display: block;
+}
+
+.logo {
+    width: 150px;
+}
+
+.telefone {
+    width: 40px;
+}
+
+.img-home {
+    text-align: center;
+    width: 880px;
+    height: 350px;
+}
+
